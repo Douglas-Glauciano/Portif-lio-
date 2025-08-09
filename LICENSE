@@ -1,21 +1,39 @@
-MIT License
+RUST DICE COMMUNITY LICENSE v1.0
+Copyright (c) 2025 [Douglas]. Todos os direitos reservados.
 
-Copyright (c) 2025 Douglas
+## 1. PERMISSÕES
+Você pode:
+a) Utilizar o Software para fins pessoais e não comerciais;
+b) Estudar e modificar o código-fonte para uso pessoal;
+c) Criar e compartilhar MODS (modificações) desde que:
+   i) Seja claramente identificado como "MOD não-oficial"
+   ii) Inclua créditos visíveis ao Rust Dice original
+   iii) Não seja distribuído como produto comercial
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## 2. RESTRIÇÕES
+É proibido:
+a) Distribuir cópias do Software original ou modificado;
+b) Vender, alugar ou licenciar o Software ou MODS;
+c) Utilizar o Software para fins comerciais sem licença;
+d) Remover ou alterar créditos de autoria.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## 3. PROPRIEDADE INTELECTUAL
+a) O núcleo do Software (código essencial) é propriedade exclusiva do Autor;
+b) MODS são propriedade de seus criadores, mas devem:
+   i) Manter esta licença nos arquivos originais
+   ii) Não reivindicar autoria do Software base
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## 4. USO COMERCIAL
+Para uso comercial (streaming, torneios, versões empresariais):
+contato@douglasdev.com | linkedin.com/in/douglas
+
+## 5. GARANTIAS
+O Software é fornecido "NO ESTADO EM QUE SE ENCONTRA". O Autor não oferece garantias e não se responsabiliza por:
+a) Danos decorrentes do uso;
+b) Compatibilidade de MODS de terceiros;
+c) Perda de dados ou funcionamento inadequado.
+
+## 6. VALIDADE
+Esta licença é automaticamente revogada se você:
+a) Violar quaisquer termos da Seção 2;
+b) Usar o Software para fins comerciais não autorizados.
