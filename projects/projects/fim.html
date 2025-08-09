@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Rust Dice: Matriz de Responsabilidades</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+  * {
+    margin: 0; padding: 0; box-sizing: border-box;
+  }
+
+  body {
+    background: linear-gradient(135deg, #0b0f17, #1c1f26);
+    color: #cfcfcf;
+    font-family: 'Press Start 2P', cursive;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .credits-container {
+    width: 320px;
+    height: 600px;
+    border: 3px solid #4caf50;
+    border-radius: 10px;
+    background: rgba(20, 30, 40, 0.85);
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 20px #4caf50;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .credits-content {
+    position: relative;
+    width: 100%;
+    /* removido animation CSS */
+    top: 100%;
+  }
+
+  .section {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  .section h2 {
+    font-size: 1.1rem;
+    color: #4caf50;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 6px #4caf50;
+  }
+
+  .names {
+    font-size: 0.75rem;
+    color: #9ccc65;
+    text-shadow: 0 0 4px #9ccc65;
+    line-height: 1.5;
+  }
+
+  #info {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    color: #4caf50aa;
+    background: rgba(0,0,0,0.5);
+    padding: 5px 10px;
+    border-radius: 6px;
+    user-select: none;
+  }
+</style>
+</head>
+<body>
+
+<div class="credits-container" aria-label="Matriz de Responsabilidades - Créditos de Rust Dice">
+  <div class="credits-content" id="credits" role="list">
+
+    <div class="section" role="listitem">
+      <h2>Concepção do Projeto</h2>
+      <p class="names">Futuro</p>
+    </div>
+
+    <div class="section" role="listitem">
+      <h2>Desenvolvimento de Código</h2>
+      <p class="names">Futuro, Alex Silva</p>
+    </div>
+
+    <div class="section" role="listitem">
+      <h2>Design de Personagens</h2>
+      <p class="names">Futuro, Mariana Costa</p>
+    </div>
+
+    <div class="section" role="listitem">
+      <h2>Criação do Sistema de Combate</h2>
+      <p class="names">Futuro, Rafael Alves</p>
+    </div>
+
+    <div class="section" role="listitem">
+      <h2>Escrita do Lore & História</h2>
+      <p class="names">Futuro, Ana Beatriz, Lucas Gomes</p>
+    </div>
+
+    <div class="section" role="listitem">
+      <h2>Testes & Debugging</h2>
+      <p class="names">Futuro, Pedro Henrique</p>
+    </div>
+
+    <div class="section" role="listitem">
+      <h2>Documentação & Relatório</h2>
+      <p class="names">Futuro, Camila Dias</p>
+    </div>
+
+    <div class="section" role="listitem">
+      <h2>Arte e Interface</h2>
+      <p class="names">Futuro, Eduardo Lima</p>
+    </div>
+
+    <div class="section" role="listitem">
+      <h2>Música & Sons</h2>
+      <p class="names">Bruna Martins</p>
+    </div>
+
+    <div class="section" role="listitem">
+      <h2>Marketing & Divulgação</h2>
+      <p class="names">Felipe Rocha</p>
+    </div>
+
+    <div class="section" role="listitem">
+      <h2>Consultoria Técnica</h2>
+      <p class="names">Sofia Almeida</p>
+    </div>
+
+  </div>
+</div>
+
+<div id="info">
+  <p>Controles: ⬆️ Acelerar | ⬇️ Desacelerar | ␣ Pausar/Retomar | R Reiniciar</p>
+</div>
+
+<script>
+  const credits = document.getElementById('credits');
+  const containerHeight = credits.parentElement.clientHeight;
+  let speed = 30; // pixels por segundo, valor inicial (ajusta aqui)
+  let isPaused = false;
+  let position = containerHeight; // começa fora da tela, embaixo
+  let lastTimestamp = null;
+
+  // Função de loop para animar
+  function step(timestamp) {
+    if (!lastTimestamp) lastTimestamp = timestamp;
+    const delta = timestamp - lastTimestamp;
+    lastTimestamp = timestamp;
+
+    if (!isPaused) {
+      position -= (speed * delta) / 1000; // move para cima, baseado no tempo decorrido
+      // Quando sair totalmente para cima, reinicia de baixo
+      if (position < -credits.offsetHeight) {
+        position = containerHeight;
+      }
+      credits.style.top = position + 'px';
+    }
+    requestAnimationFrame(step);
+  }
+
+  // Começa animação
+  requestAnimationFrame(step);
+
+  // Controles de teclado
+  window.addEventListener('keydown', e => {
+    switch(e.code) {
+      case 'ArrowUp':
+        speed += 10;
+        if (speed > 200) speed = 200;
+        break;
+      case 'ArrowDown':
+        speed -= 10;
+        if (speed < 10) speed = 10;
+        break;
+      case 'Space':
+        e.preventDefault();
+        isPaused = !isPaused;
+        break;
+      case 'KeyR':
+        position = containerHeight;
+        break;
+    }
+  });
+</script>
+
+</body>
+</html>

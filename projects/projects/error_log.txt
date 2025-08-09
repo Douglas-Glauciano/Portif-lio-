@@ -1,0 +1,6 @@
+Erro crítico: 'MainMenuState' object has no attribute 'change_state'
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\Rust_dice 6.9\states\system\main_menu_state.py", line 27, in render
+    self.change_state(MainMenuState(self))
+    ^^^^^^^^^^^^^^^^^
+AttributeError: 'MainMenuState' object has no attribute 'change_state'
