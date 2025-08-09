@@ -25,12 +25,22 @@ graph LR
     E[SQLite] --> F[Modelagem de Dados]
     E --> G[Otimização de Queries]
 
-> ℹ️ **Uso do código**  
-Este projeto é parte do meu portfólio técnico. Você pode:
-- Estudar o código 📚
-- Referenciar em seus projetos (com crédito) 🔖
-- Usar como base para aprendizado 🎓
+## 📜 Licenciamento & Mods
 
-Proíbe-se:
-- Redistribuição comercial sem autorização 🚫
-- Remoção de créditos/autoría 🚫
+Este projeto está sob a **Rust Dice Community License v1.0** que permite:
+
+✅ Jogar gratuitamente  
+✅ Criar MODS pessoais  
+✅ Estudar o código-fonte  
+
+Com as restrições:  
+❌ Não distribuir cópias  
+❌ Não usar comercialmente  
+❌ Não remover créditos  
+
+**Para criadores de MODS:**  
+- Identifiquem como "MOD não-oficial"  
+- Mantenham os créditos ao Rust Dice original  
+- Não monetizem suas modificações  
+
+[Leia a licença completa](LICENSE.md) | [Contato comercial](mailto:contato@douglasdev.com)
