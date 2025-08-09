@@ -1,0 +1,195 @@
+('C:\\Users\\Usuario\\Desktop\\Rust Dice_ Echoes of '
+ 'Prometheus\\build\\Rust_Dice\\Rust_Dice.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\Usuario\\Desktop\\Rust Dice_ Echoes of '
+   'Prometheus\\build\\Rust_Dice\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\Usuario\\Desktop\\Rust Dice_ Echoes of '
+   'Prometheus\\build\\Rust_Dice\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\Usuario\\Desktop\\Rust Dice_ Echoes of '
+   'Prometheus\\build\\Rust_Dice\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\Usuario\\Desktop\\Rust Dice_ Echoes of '
+   'Prometheus\\build\\Rust_Dice\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\Usuario\\Desktop\\Rust Dice_ Echoes of '
+   'Prometheus\\build\\Rust_Dice\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\Usuario\\Desktop\\Rust Dice_ Echoes of '
+   'Prometheus\\build\\Rust_Dice\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\Usuario\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\Usuario\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('main',
+   'C:\\Users\\Usuario\\Desktop\\Rust Dice_ Echoes of Prometheus\\main.py',
+   'PYSOURCE'),
+  ('python312.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\python312.dll',
+   'BINARY'),
+  ('unicodedata.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_wmi.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_wmi.pyd',
+   'EXTENSION'),
+  ('_sqlite3.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_sqlite3.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('libssl-3.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\libssl-3.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('sqlite3.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\sqlite3.dll',
+   'BINARY'),
+  ('data\\__init__.py',
+   'C:\\Users\\Usuario\\Desktop\\Rust Dice_ Echoes of '
+   'Prometheus\\data\\__init__.py',
+   'DATA'),
+  ('data\\__pycache__\\__init__.cpython-312.pyc',
+   'C:\\Users\\Usuario\\Desktop\\Rust Dice_ Echoes of '
+   'Prometheus\\data\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('data\\__pycache__\\data_tuples.cpython-312.pyc',
+   'C:\\Users\\Usuario\\Desktop\\Rust Dice_ Echoes of '
+   'Prometheus\\data\\__pycache__\\data_tuples.cpython-312.pyc',
+   'DATA'),
+  ('data\\__pycache__\\populate_db.cpython-312 (1).pyc',
+   'C:\\Users\\Usuario\\Desktop\\Rust Dice_ Echoes of '
+   'Prometheus\\data\\__pycache__\\populate_db.cpython-312 (1).pyc',
+   'DATA'),
+  ('data\\__pycache__\\populate_db.cpython-312.pyc',
+   'C:\\Users\\Usuario\\Desktop\\Rust Dice_ Echoes of '
+   'Prometheus\\data\\__pycache__\\populate_db.cpython-312.pyc',
+   'DATA'),
+  ('data\\data_tuples.py',
+   'C:\\Users\\Usuario\\Desktop\\Rust Dice_ Echoes of '
+   'Prometheus\\data\\data_tuples.py',
+   'DATA'),
+  ('data\\database.db',
+   'C:\\Users\\Usuario\\Desktop\\Rust Dice_ Echoes of '
+   'Prometheus\\data\\database.db',
+   'DATA'),
+  ('data\\populate_db.py',
+   'C:\\Users\\Usuario\\Desktop\\Rust Dice_ Echoes of '
+   'Prometheus\\data\\populate_db.py',
+   'DATA'),
+  ('documentacao\\change_log.md',
+   'C:\\Users\\Usuario\\Desktop\\Rust Dice_ Echoes of '
+   'Prometheus\\documentacao\\change_log.md',
+   'DATA'),
+  ('documentacao\\tutorial.md',
+   'C:\\Users\\Usuario\\Desktop\\Rust Dice_ Echoes of '
+   'Prometheus\\documentacao\\tutorial.md',
+   'DATA'),
+  ('game_settings.json',
+   'C:\\Users\\Usuario\\Desktop\\Rust Dice_ Echoes of '
+   'Prometheus\\game_settings.json',
+   'DATA'),
+  ('pyreadline3-3.5.4.dist-info\\WHEEL',
+   'C:\\Users\\Usuario\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pyreadline3-3.5.4.dist-info\\WHEEL',
+   'DATA'),
+  ('pyreadline3-3.5.4.dist-info\\INSTALLER',
+   'C:\\Users\\Usuario\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pyreadline3-3.5.4.dist-info\\INSTALLER',
+   'DATA'),
+  ('pyreadline3-3.5.4.dist-info\\LICENSE.md',
+   'C:\\Users\\Usuario\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pyreadline3-3.5.4.dist-info\\LICENSE.md',
+   'DATA'),
+  ('pyreadline3-3.5.4.dist-info\\top_level.txt',
+   'C:\\Users\\Usuario\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pyreadline3-3.5.4.dist-info\\top_level.txt',
+   'DATA'),
+  ('pyreadline3-3.5.4.dist-info\\RECORD',
+   'C:\\Users\\Usuario\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pyreadline3-3.5.4.dist-info\\RECORD',
+   'DATA'),
+  ('pyreadline3-3.5.4.dist-info\\METADATA',
+   'C:\\Users\\Usuario\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pyreadline3-3.5.4.dist-info\\METADATA',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\Users\\Usuario\\Desktop\\Rust Dice_ Echoes of '
+   'Prometheus\\build\\Rust_Dice\\base_library.zip',
+   'DATA')],
+ 'python312.dll',
+ False,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)
